@@ -6,6 +6,7 @@
 	// 	"dockerfile": "Dockerfile"
 	// },
 	"image": "milkvtech/milkv-duo:latest",
+	"initializeCommand": "mkdir -p ${localWorkspaceFolder}/duo-projects-temp",
 	"workspaceFolder": "/home/work",
 	"workspaceMount": "source=${localWorkspaceFolder}/duo-buildroot-sdk,target=/home/work,type=bind,consistency=cached",
 	// "workspaceMount": "source=${localWorkspaceFolder},target=/home/work,type=bind,consistency=cached",
