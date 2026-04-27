@@ -7,3 +7,6 @@
 [submodule "tpu-mlir"]
 	path = tpu-mlir
 	url = https://github.com/milkv-duo/tpu-mlir.git
+[submodule "duo-pinmux"]
+	path = duo-pinmux
+	url = https://github.com/milkv-duo/duo-pinmux.git

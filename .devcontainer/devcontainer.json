@@ -16,7 +16,8 @@
 		"source=${localWorkspaceFolder}/.devcontainer,target=/home/work/.devcontainer,type=bind,consistency=cached",
 		"source=${localWorkspaceFolder}/duo-examples,target=/home/work/duo-examples,type=bind,consistency=cached",
 		"source=${localWorkspaceFolder}/duo-projects-temp,target=/home/work/duo-projects-temp,type=bind,consistency=cached",
-		"source=${localWorkspaceFolder}/duo-projects,target=/home/work/duo-projects,type=bind,consistency=cached"
+		"source=${localWorkspaceFolder}/duo-projects,target=/home/work/duo-projects,type=bind,consistency=cached",
+		"source=${localWorkspaceFolder}/tpu-mlir,target=/home/work/tpu-mlir,type=bind,consistency=cached"
 	],
 	"forwardPorts": [8888],
 	"customizations": {
