@@ -4,3 +4,6 @@
 [submodule "duo-buildroot-sdk"]
 	path = duo-buildroot-sdk
 	url = https://github.com/milkv-duo/duo-buildroot-sdk.git
+[submodule "tpu-mlir"]
+	path = tpu-mlir
+	url = https://github.com/milkv-duo/tpu-mlir.git
